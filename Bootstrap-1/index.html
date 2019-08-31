@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Bootstrap 1</title>
+    <meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+<form action="#">
+  <div class="form-group">
+      <label for="">Name:</label>
+  <input class="form-control" type="text" placeholder="Name">
+  </div>  <div class="form-group">
+      <label for="">Email:</label>
+  <input class="form-control" type="email" placeholder="Email"> 
+  </div>  <div class="form-group">
+     <label for="">Query:</label>
+  <input class="form-control" type="text" placeholder="Query">
+  </div>  <div class="form-group">
+      <label for=""> Details: </label>
+  <textarea name="" placeholder="Message"></textarea>
+  </div>
+
+ <div class="form-group">
+    <input class="form-control btn btn-info" type="submit" value="send">
+</form>
+   
+ </div>
+ <div id="my_slider" class="slider carousel slide" data-ride="carousel" data-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="assets/img/sky.jpg" alt="">
+    </div>
+    <div class="carousel-item ">
+      <img src="assets/img/new2.jpg" alt="">
+    </div>
+    <div class="carousel-item ">
+      <img src="assets/img/new3.jpg" alt="">
+    </div>
+    <div class="carousel-item ">
+      <img src="assets/img/new4.png" alt="">
+    </div>
+  </div>
+    <a class="carousel-control-prev" href="#my_slider" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#my_slider" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+   <ul class="carousel-indicators">
+    <li data-target="#my_slider" data-slide-to="0" class="active"></li>
+    <li data-target="#my_slider" data-slide-to="1"></li>
+    <li data-target="#my_slider" data-slide-to="2"></li>    
+    <li data-target="#my_slider" data-slide-to="3"></li>
+  </ul>
+ </div>
+
+<div class="makingmodal">
+  <a   href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> Quick Info </a>
+</div>
+<div  id="myModal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+       
+          <h2 class="modal-title"> Information about The Office </h2>
+      </div>
+        <div class="modal-body">
+          <p>
+            This US adaptation, set at a paper company in Scranton, Pa., has a similar documentary style to that of the Ricky Gervais-led British original. It features the staff of Dunder-Mifflin, a staff that includes characters based on characters from the British show (and, quite possibly, people you work with in your office). There's Jim, the likable employee who's a bit of an everyman. Jim has a thing for receptionist-turned-sales rep Pam (because office romances are always a good idea). There's also Dwight, the successful co-worker who lacks social skills and common sense. And there's Ryan, who has held many jobs at the company.
+          </p>
+          <iframe src="https://www.youtube.com/embed/izU-Bx_miSI" ></iframe>
+        </div>
+        <div class="modal-footer">
+          <a data-dismiss="modal" href="#"> Close </a>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+	<script src= "assets/js/jquery-3.3.1.slim.min.js"></script>
+	<script src= "assets/js/popper.min.js"></script>
+	<script src= "assets/js/bootstrap.min.js"></script>
+</body>
+</html>

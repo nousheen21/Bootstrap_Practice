@@ -1,0 +1,29 @@
+form{
+	padding: 20px;
+	width: 800px;
+	background-color: lightgray;
+}
+.btn{
+	width: 70px;
+}
+.slider{
+	width: 800px;
+	height: 480px;
+	margin: 40px auto;
+
+}
+.slider img{
+	height: 480px;
+	width: 100%;
+}
+.makingmodal{
+	width: 70%;
+	margin: 30px auto;
+}
+.makingmodal .btn {
+    width: 100px;
+}
+.modal-body iframe{
+	width: 400px;
+	height: 300px;
+}
